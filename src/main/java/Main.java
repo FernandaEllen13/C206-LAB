@@ -43,11 +43,11 @@ public class Main {
             //menu de opções:
             System.out.println("Prazer, " + nome);
             System.out.println("! Sinta-se a vontade para escolher um de nossos produtos:\n");
-            System.out.println("Opcao 0 - Exibir promocao do dia de cada computador(1-3):\n");
+            System.out.println("Opcao -1 - Exibir promocao do dia de cada computador(1-3):\n");
             System.out.println("Opcao 1 -  Comprar computador <1>:\n");
             System.out.println("Opcao 2 - Comprar computador <3>:\n");
             System.out.println("Opcao 3 - Comprar computador <4>:\n");
-            System.out.println("Opcao 4 - Sair\n");
+            System.out.println("Opcao 0 - Sair\n");
             //exibição dos prod que o cliente selecionou:
             System.out.println("\nMeu carrinho: R$ ");
             System.out.println("R$: " + cliente.TotalCompra());
